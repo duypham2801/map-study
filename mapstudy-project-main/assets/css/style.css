@@ -1,0 +1,169 @@
+
+
+
+.main.grid.wide {
+    margin-top: 20px;
+   
+}
+.main .main-info-img {
+    width: 100%;
+}
+
+.main .main-contact {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ff9100;
+    border-radius: 5px;
+}
+
+.main-contact .main-contact-header {
+    background: linear-gradient(270deg,#ff8100,#f05225);
+    color: white;
+    font-size: 14;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.main-contact .main-contact-item{
+    padding: 10px;
+}
+
+.main-contact-item .contact-item-img {
+    width: 80%;
+    border: 1.5px solid #20bcf0;
+    border-radius: 50%;
+}
+.main-contact-item .contact-item-header {
+    color: #495057;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.main-contact-item .contact-item-phone {
+    color: #1890ff;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.main-contact-item .contact-item-facebook {
+    color: #1890ff;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.contact-hotline {
+    margin: 30px 5px;
+    display: flex;
+    align-items: center;
+}
+.hotline-icon{
+    color: #f05225;
+    font-size: 20px;
+    background-color: #ffefef;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    animation: hotlineBlink ease-in 0.6s infinite alternate ;
+}
+
+.hotline-number {
+    color: #f05225;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.find-id {
+    margin: 10px;
+    display: flex;
+    border: 1px solid #beb7b7;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    color: #bdb5b5;
+}
+
+.find-id-input {
+    width: 100%;
+    border: none;
+    color: #bdb5b5;
+    font-size: 14px
+
+}
+.find-id-input::placeholder{
+    color: #bdb5b5;
+    font-size: 14px
+}
+
+.main-social{
+    margin-top: 20px;
+}
+.main-social .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-social .social-text {
+    font-size: 16;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #333;
+}
+
+.courses-title {
+    display: flex;
+    justify-content: center;
+  
+}
+.courses-title a{
+    color: #2970b8;
+    font-weight: 500;
+    font-size: 24px;
+    border-bottom: 2px solid #0763c6;
+    margin-top: 40px;
+}
+
+.course {
+    background-color: white;
+    box-shadow: 0 0 5px 0 hsl(0deg 0% 65% / 75%);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.course .course-img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.course .course-name {
+    margin: 15px;
+    color: #2970b8;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.course .course-teacher {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 15px;
+    padding-bottom: 10px ;
+}
+.course .course-teacher span {
+    color: #e3342f;
+}
+
+
+
+/* Hiệu ứng */
+@keyframes hotlineBlink{
+    from{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to{
+        transform: rotate(-30deg);
+        opacity: 0.4;
+    }
+}
+
+
